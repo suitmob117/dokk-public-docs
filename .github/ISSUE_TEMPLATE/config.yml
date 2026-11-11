@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 私密报告（隐私 / 安全）
+    url: https://github.com/suitmob117/dokk-public-docs/security/advisories/new
+    about: 隐私请求或安全漏洞请走私密入口，不要在公开 Issue 中提交卡密、API Key、口令或会话令牌。
+  - name: 操作指南
+    url: https://suitmob117.github.io/dokk-public-docs/guide/
+    about: 安装、授权、API、本地 CLI 与网课使用的图文步骤。

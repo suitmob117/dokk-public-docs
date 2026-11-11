@@ -1,0 +1,19 @@
+---
+---
+
+@import "minima";
+
+.post-content {
+  overflow-wrap: anywhere;
+}
+
+.post-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}

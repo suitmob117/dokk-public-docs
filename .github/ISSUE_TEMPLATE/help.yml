@@ -1,0 +1,56 @@
+name: 使用问题 / 文档反馈
+description: 反馈安装、使用、兼容或文档问题。请先移除卡密、API Key、口令与个人信息。
+title: "[Help] "
+labels: ["help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。公开 Issue 会被所有人看到，请勿填写完整卡密、API Key、口令、会话令牌、Cookie、订单资料或含个人信息的截图。
+  - type: input
+    id: version
+    attributes:
+      label: 扩展版本
+      description: 可在扩展管理页或工作台左上角查看
+      placeholder: 例如 0.8.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器与系统
+      placeholder: 例如 Edge 141 / Windows 11
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: 连接方式
+      options:
+        - 官方服务
+        - 自配 API
+        - 本地 CLI
+        - 未配置 / 仅网课
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 在哪个页面、点了哪个按钮、实际提示什么
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我已移除卡密、API Key、口令、会话令牌及个人信息
+          required: true

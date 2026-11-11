@@ -1,0 +1,17 @@
+title: DoKK多可学习助手
+description: 公开隐私政策、权限说明、使用条款、操作指南与 Microsoft Edge 商店信息
+lang: zh-CN
+timezone: Asia/Shanghai
+url: https://suitmob117.github.io
+baseurl: /dokk-public-docs
+theme: minima
+header_pages:
+  - GUIDE.md
+  - PRIVACY.md
+  - SUPPORT.md
+plugins:
+  - jekyll-relative-links
+exclude:
+  - README.md
+  - LICENSE
+  - .github
